@@ -1,0 +1,7 @@
+{application, simplemde,
+  [{description, "embeddable JavaScript Markdown editor"},
+   {vsn, "1.11.2"},
+   {registered, []},
+   {applications, [kernel, stdlib]},
+   {mod, { simplemde, []}},
+   {env, []} ]}.
